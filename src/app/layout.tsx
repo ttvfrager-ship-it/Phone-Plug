@@ -7,16 +7,22 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
   title: "The Phone Plug | Award-Winning Phone Repair in Garden City, MI",
-  description: "Premier phone repair services in Garden City, Michigan. Expert screen replacement, battery repair, and water damage restoration. Fast, reliable, and premium service.",
-  metadataBase: new URL('https://thephoneplug.com'), // Placeholder, vital for SEO
+  description:
+    "Premier phone repair services in Garden City, Michigan. Expert screen replacement, battery repair, and water damage restoration. Fast, reliable, and premium service.",
+  metadataBase: new URL("https://thephoneplug.com"),
+  icons: {
+    icon: "/phone-plug-logo.png",
+  },
   openGraph: {
     title: "The Phone Plug | Expert Phone Repair",
-    description: "Garden City's top-rated phone repair service. Visit us today for premium care.",
+    description:
+      "Garden City's top-rated phone repair service. Visit us today for premium care.",
     siteName: "The Phone Plug",
     type: "website",
     locale: "en_US",
   },
 };
+
 
 export default function RootLayout({
   children,

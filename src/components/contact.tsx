@@ -67,7 +67,7 @@ export function Contact() {
             <div className="bg-white rounded-3xl p-8 lg:p-10 shadow-2xl">
               {!isSubmitted ? (
                 <form
-                  action="https://formsubmit.co/thephoneplug@email.com"
+                  action="https://formsubmit.co/frager201@gmail.com"
                   method="POST"
                   className="space-y-6"
                   onSubmit={() => setIsSubmitted(true)}
